@@ -1,7 +1,7 @@
 {
-	"name": "cloudoki/oauth2-stack",
+	"name": "surveyanyplace/oauth2-stack",
 	"description": "A complete Oauth2 Server and Views stack",
-	"homepage": "http://github.com/Cloudoki/oauth2-stack",
+	"homepage": "http://github.com/surveyanyplace/oauth2-stack",
 	"keywords": ["oauth2","laravel"],
     "license":"MIT",
 	"authors": [
