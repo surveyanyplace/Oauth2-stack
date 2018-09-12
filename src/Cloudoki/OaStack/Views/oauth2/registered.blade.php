@@ -30,12 +30,12 @@
 		<p>{{ trans('oastack::oauth2.app.registered.info') }}</p>
 		
 		<div class="well well-sm">
-			<strong>{{ $name or "" }}</strong>
+			<strong>{{ $name ?? "" }}</strong>
 		</div>
 		
 		<div class="input-group">
 			<label for="clientid" class="input-group-addon">{{ trans('oastack::oauth2.app.registered.client_id') }}</label>
-			<div id="clientid" class="well well-sm form-control">{{ $id or '' }}</div>
+			<div id="clientid" class="well well-sm form-control">{{ $id ?? '' }}</div>
 			
 			<span class="input-group-btn">
 				<button class="btn btn-default" type="button">
@@ -47,7 +47,7 @@
 		
 		<div class="input-group">
 			<label for="secret" class="input-group-addon">{{ trans('oastack::oauth2.app.registered.client_secret') }}</label>
-			<div id="secret" class="well well-sm form-control">{{ $secret or '' }}</div>
+			<div id="secret" class="well well-sm form-control">{{ $secret ?? '' }}</div>
 
 			<span class="input-group-btn">
 				<button class="btn btn-default" type="button">
@@ -58,7 +58,7 @@
 		<br>
 		
 		<div class="well well-sm">
-			{!! $redirecturi or "" !!}
+			{!! $redirecturi ?? "" !!}
 		</div>
 
 	@endif
