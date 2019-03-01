@@ -16,7 +16,7 @@
 	],
 	"require": {
 		"php": ">=7",
-		"laravelcollective/html": "5.7.*",
+		"laravelcollective/html": "5.8.*",
 		"bshaffer/oauth2-server-php": "v1.10.0"
 	},
 	"autoload": {
