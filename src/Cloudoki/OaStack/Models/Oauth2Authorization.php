@@ -13,7 +13,7 @@ class Oauth2Authorization extends Eloquent
 	 */
 	const type = 'oauth2authorization';
 
-	protected $table = 'oauth_authorizations';
+	protected $table = 'oauth_authorizations_cloudoki';
 
 	protected $fillable = ['client_id', 'user_id', 'authorization_date'];
 

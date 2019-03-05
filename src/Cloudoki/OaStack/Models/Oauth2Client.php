@@ -18,7 +18,7 @@ class Oauth2Client extends BaseModel
 
 	const success = true;
 
-	protected $table = 'oauth_clients';
+	protected $table = 'oauth_clients_cloudoki';
 
 	/**
 	 * Since we're using an existing db and Eloquent expects us to have (by default)

@@ -12,7 +12,7 @@ class Oauth2AccessToken extends Eloquent
 	 *
 	 * @const string
 	 */
-	protected $table = 'oauth_access_tokens';
+	protected $table = 'oauth_access_tokens_cloudoki';
 
 	protected $guarded = array('scope');
 
