@@ -42,8 +42,9 @@ class Oauth2Verifier
 
 		$pdoconfig = array
 		(
-			'client_table' => 'oauth_clients',
-			'access_token_table' => 'oauth_access_tokens'
+			'client_table' => 'oauth_clients_cloudoki',
+			'access_token_table' => 'oauth_access_tokens_cloudoki',
+			'scope_table' => 'oauth_scopes_cloudoki'
 		);
 
 		$storage = new Pdo (array('dsn' => $dsn, 'username' => $db->username, 'password' => $db->password), $pdoconfig);
